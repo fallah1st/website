@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profil Website Modern</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+
+        /* Header */
+        header {
+            background: linear-gradient(90deg, #007bff, #00c6ff);
+            color: white;
+            padding: 30px 0;
+            text-align: center;
+            border-radius: 8px;
+        }
+
+        .header-title {
+            font-size: 2.5rem;
+            font-weight: 600;
+        }
+
+        .header-subtitle {
+            font-size: 1.2rem;
+            font-weight: 300;
+        }
+
+        /* Navbar */
+        .navbar {
+            background: #007bff;
+            border-radius: 8px;
+        }
+
+        .navbar-brand, .nav-link {
+            font-size: 1.1rem;
+            font-weight: 500;
+            color: white !important;
+        }
+
+        .nav-link:hover {
+            text-decoration: underline;
+        }
+
+        /* Galeri Section */
+        #galeri h2 {
+            font-size: 2rem;
+            font-weight: 600;
+            color: #007bff;
+        }
+
+        .card {
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+        }
+
+        .card-title {
+            color: #007bff;
+            font-size: 1.3rem;
+            font-weight: 600;
+        }
+
+        /* Footer */
+        footer {
+            background: linear-gradient(90deg, #007bff, #00c6ff);
+            color: white;
+            padding: 20px 0;
+            border-radius: 8px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Container utama untuk konten -->
+    <div class="container">
+
+        <!-- Header Profil -->
+        <header>
+            <h1 class="header-title">Muhammad Fallah</h1>
+            <p class="header-subtitle">Web Developer, Network Engineer & CEH</p>
+        </header>
+
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-sm navbar-dark mt-3"> 
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Profil Website</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link active" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="profil.html">Profil</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="galeri.html">Galeri</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="kontak.html">Kontak</a>
+                </li>
+                </ul>
+                </div>
+            </div>
+        </nav>
+
+        <section id="galeri" class="my-5">
+            <h2 class="text-center mb-4">Galeri Sertifikat</h2>
+            <p class="text-center mb-5">Berikut adalah beberapa sertifikat yang telah saya peroleh dari pelatihan, seminar, dan penghargaan.</p>
+            
+            <div class="row g-4">
+                <!-- Sertifikat 1 -->
+            <div class="col-md-4">
+            <div class="card">
+                <img src="moriest.jpg" class="card-img-top" alt="Sertifikat 1">
+            <div class="card-body">
+            <h5 class="card-title">Masa Orientasi STTIKOM Insan Unggul</h5>
+            <p class="card-text">Sertifikasi dari Moriest merupakan yang diadakan saat mahasiswa baru.</p>
+            </div>
+            </div>
+            </div>
+        
+                <!-- Sertifikat 2 -->
+                <div class="col-md-4">
+                <div class="card">
+                    <img src="seminar.jpg" class="card-img-top" alt="Sertifikat 2">
+                <div class="card-body">
+                <h5 class="card-title">Seminar sebagai Peserta</h5>
+                <p class="card-text">Adalah program kerja dari BEM-IU.</p>
+                </div>
+                </div>
+                </div>
+        
+                <!-- Sertifikat 3 -->
+                <div class="col-md-4">
+            <div class="card">
+                <img src="ios.jpg" class="card-img-top" alt="Sertifikat 3">
+            <div class="card-body">
+            <h5 class="card-title">IOS-IU</h5>
+            <p class="card-text">Sertifikasi yang menunjukkan proses mengikuti untuk menjadi kepengurusan disebuah organisasi Ikatan Olahraga STTIKOM Insan Unggul.</p>
+            </div>
+            </div>
+            </div>
+            </div>
+        </section>
+        
+
+        <!-- Footer -->
+        <footer class="text-center">
+            <p>&copy; 2024 Profil Website Modern | Semua Hak Dilindungi</p>
+        </footer>
+
+    </div>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

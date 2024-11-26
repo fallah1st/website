@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profil Website Sederhana</title>
+    <!-- Link ke Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Link ke file CSS kustom (jika ada) -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Container utama untuk konten -->
+    <div class="container">
+
+        <!-- Header Profil -->
+        <header>
+            <div class="mt-4 p-5 bg-primary text-white rounded">
+                <h1>Muhammad Fallah</h1>
+                <p>Web Developer, Network Engineer & CEH</p>
+            </div>
+
+            <!-- Navbar -->
+            <nav class="navbar navbar-expand-sm bg-primary navbar-dark mt-2 rounded"> 
+                <div class="container-fluid">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="profil.html">Profil</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="galeri.html">Galeri</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="kontak.html">Kontak</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+
+        <!-- Section Kontak -->
+        <section id="kontak" class="my-5">
+            <h2 class="text-center mb-4">Kontak Kami</h2>
+            <p class="text-center mb-5">Silahkan isi formulir di bawah ini untuk menghubungi kami. Kami akan merespons secepatnya!</p>
+            
+            <!-- Formulir Kontak -->
+            <form action="#" method="POST">
+                <div class="row mb-3">
+                    <label for="name" class="col-sm-2 col-form-label">Nama Lengkap</label>
+                    <div class="col-sm-10">
+                        <input type="text" class="form-control" id="name" name="name" placeholder="Masukkan nama lengkap" required>
+                    </div>
+                </div>
+
+                <div class="row mb-3">
+                    <label for="email" class="col-sm-2 col-form-label">Email</label>
+                    <div class="col-sm-10">
+                        <input type="email" class="form-control" id="email" name="email" placeholder="Masukkan alamat email" required>
+                    </div>
+                </div>
+
+                <div class="row mb-3">
+                    <label for="phone" class="col-sm-2 col-form-label">Nomor Telepon</label>
+                    <div class="col-sm-10">
+                        <input type="text" class="form-control" id="phone" name="phone" placeholder="Masukkan nomor telepon" required>
+                    </div>
+                </div>
+
+                <div class="row mb-3">
+                    <label for="message" class="col-sm-2 col-form-label">Pesan</label>
+                    <div class="col-sm-10">
+                        <textarea class="form-control" id="message" name="message" rows="5" placeholder="Tuliskan pesan Anda" required></textarea>
+                    </div>
+                </div>
+
+                <div class="row mb-3 text-center">
+                    <div class="col-sm-12">
+                        <button type="submit" class="btn btn-primary">Kirim Pesan</button>
+                    </div>
+                </div>
+            </form>
+            
+            <!-- Kontak Informasi -->
+            <div class="text-center mt-4">
+                <p>Atau hubungi kami melalui email:</p>
+                <p><strong>Email:</strong> mhmmdfallah1st@gmail.com</p>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="bg-dark text-white text-center py-3 mt-5">
+            <p>&copy; 2024 Profil Website Sederhana | Semua Hak Dilindungi</p>
+        </footer>
+
+    </div>
+
+    <!-- Bootstrap JS dan dependensi (jQuery, Popper.js) -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"></script>
+</body>
+</html>
+
